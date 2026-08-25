@@ -1,0 +1,21 @@
+se ha generado el servicio emergencia-go
+para correr la app emergencia-go, el servicio esta alojado emergencia
+sudo nano /etc/systemd/system/emergencia-go.service
+
+pasos para inicializar el servicio
+# 1. Recargar Systemd
+sudo systemctl daemon-reload
+
+# 2. Habilitar para que arranque automáticamente al encender el servidor
+sudo systemctl enable emergencia-go
+
+# 3. Iniciar el servicio ahora mismo
+sudo systemctl start emergencia-go
+
+ver el estado del servicio
+
+sudo systemctl status emergencia-go
+
+sudo systemctl restart emergencia-go
+
+sudo journalctl -u emergencia-go -f

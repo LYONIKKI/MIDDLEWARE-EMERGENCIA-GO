@@ -1,0 +1,6 @@
+emergencia_api
+*.exe
+*.out
+.env
+*.log
+.vscode/
