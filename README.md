@@ -11,3 +11,8 @@ Sistema hospitalario de gestión de atenciones de emergencia, monitoreo en tiemp
 ## ⚙️ Estructura del Repositorio
 - `config/`, `controllers/`, `routes/`, `main.go`: API REST en Go.
 - `frontend/`: Vistas y módulos consumidos vía cliente web.
+
+## 📄 Licencia y Derechos de Autor
+Copyright (c) 2026 Ing. Anhgelo Smith Vega Poma (CIP N° 381913). Todos los derechos reservados.
+Queda prohibida la reproducción, copia o uso comercial sin autorización expresa del autor.
+- 
