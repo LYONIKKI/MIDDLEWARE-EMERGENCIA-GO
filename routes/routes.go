@@ -10,8 +10,10 @@ func SetupRoutes(app *fiber.App) {
 	api := app.Group("/api")
 	api.Get("/dashboard", controllers.GetDashboardData)
 	// Módulo Emergencia
-
+	api.Get("/archivos/despacho-impresion", controllers.GetCitasDespacho)
 	api.Get("/reporte/:periodo", controllers.GenerarReporteExcel)
+	api.Get("/servicios/lista-ce", controllers.GetServiciosCE)
+	api.Get("/servicios/citas-cupos", controllers.GetCitasPorServicioCupos)
 
 	emg := api.Group("/emergencia")
 	emg.Get("/pacientes-hoy", controllers.GetPacientesHoy)
